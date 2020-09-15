@@ -1,0 +1,55 @@
+.postbox .field-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.postbox .field-wrapper {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.postbox .field-wrapper:last-child {
+    padding-bottom: 0;
+}
+
+.postbox .field-wrapper .field-label {
+    width: 30%;
+    max-width: 150px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.postbox .field-wrapper .field-input {
+    flex: 1;
+}
+
+.postbox .field-wrapper input[type=text],
+.postbox .field-wrapper input[type=email],
+.postbox .field-wrapper input[type=tel],
+.form-table .option-wrapper input[type=text],
+.form-table .option-wrapper input[type=email],
+.form-table .option-wrapper input[type=tel] {
+    width: 100%;
+}
+
+.postbox .field-wrapper .image-field {
+    display: flex;
+    justify-content: space-between;
+}
+
+.postbox .field-wrapper .image-field img {
+    height: auto;
+    width: auto;
+    max-width: 75px;
+    max-height: 75px;
+}
+/*
+.postbox .field-wrapper .image-field .upload-actions {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+*/
+.form-table .option-wrapper .option-label {
+    text-align: right;
+}
